@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:repositorymodel="http://www.tibco.com/mdm/repositorymodel/1.0">
+  <repositorymodel:DataDomain xmi:id="_7t1YYK--EeeHQv2GNZdfXw" Version="3">
+    <Repository xmi:type="repositorymodel:Repository" xmi:id="_9AjkgK--EeeHQv2GNZdfXw" Name="Repository1">
+      <AttributeGroup xmi:type="repositorymodel:AttributeGroup" xmi:id="_9AprIK--EeeHQv2GNZdfXw" Name="Unassigned" Description="UNASSIGNED">
+        <Attribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprIq--EeeHQv2GNZdfXw" Name="ID" Description="Unique identifier for current entity." DisplayName="Record ID" DisplayInRecordList="true" QuickViewable="true" Length="255"/>
+        <Attribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprI6--EeeHQv2GNZdfXw" Name="IDEXT" Description="Auxiliary identifier for current entity." DisplayName="Record ID Extension" Length="255"/>
+        <Attribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprJK--EeeHQv2GNZdfXw" Name="CONTAINS" Description="Contains" DisplayName="Related Records" Length="4000"/>
+      </AttributeGroup>
+      <AttributeGroup xmi:type="repositorymodel:AttributeGroup" xmi:id="_9AprIa--EeeHQv2GNZdfXw" Name="System" Description="SYSTEM"/>
+      <InvisibleSystemAttributes xmi:type="repositorymodel:InvisibleSystemAttributes" xmi:id="_9AprJa--EeeHQv2GNZdfXw">
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprJq--EeeHQv2GNZdfXw" Name="MODDATE" Description="Last Modified On" DisplayName="Last Modified On" Type="Date"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprJ6--EeeHQv2GNZdfXw" Name="MODMEMBERID" Description="Modified By" DisplayName="Modified By"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprKK--EeeHQv2GNZdfXw" Name="ACTIVE" Description="Active" DisplayName="Active"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprKa--EeeHQv2GNZdfXw" Name="CREATIONDATE" Description="Created On" DisplayName="Created On" Type="Date"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprKq--EeeHQv2GNZdfXw" Name="OWNERID" Description="Owner" DisplayName="Owner" Type="Decimal"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprK6--EeeHQv2GNZdfXw" Name="LASTCONFIRMEDVERSION" Description="Last Confirmed Version" DisplayName="Last Confirmed Version" Type="Decimal"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprLK--EeeHQv2GNZdfXw" Name="MODVERSION" Description="Version Number" DisplayName="Version Number" Type="Decimal"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprLa--EeeHQv2GNZdfXw" Name="STATE" Description="State" DisplayName="State"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprLq--EeeHQv2GNZdfXw" Name="CHECKSUM" Description="Checksum" DisplayName="Checksum" Type="Integer"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprL6--EeeHQv2GNZdfXw" Name="PARENTVERSION" Description="Parent Version" DisplayName="Parent Version" Type="Decimal"/>
+        <PredefinedAttribute xmi:type="repositorymodel:Attribute" xmi:id="_9AprMK--EeeHQv2GNZdfXw" Name="OWNERTYPE" Description="Owner Type" DisplayName="Owner Type" Type="Decimal"/>
+      </InvisibleSystemAttributes>
+    </Repository>
+  </repositorymodel:DataDomain>
+  <repositorymodel:DeployMap xmi:id="_7t7fAK--EeeHQv2GNZdfXw"/>
+  <notation:Diagram xmi:id="_7uNy4K--EeeHQv2GNZdfXw" type="DataDomain" element="_7t1YYK--EeeHQv2GNZdfXw" name="RepositoryModel.rep" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_9A7_AK--EeeHQv2GNZdfXw" type="1001" element="_9AjkgK--EeeHQv2GNZdfXw">
+      <children xmi:type="notation:Node" xmi:id="_9BCFoK--EeeHQv2GNZdfXw" type="4002"/>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_9A7_Aa--EeeHQv2GNZdfXw" fontName="Segoe UI" fontHeight="10"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9A7_Aq--EeeHQv2GNZdfXw" x="449" y="176"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_7uNy4a--EeeHQv2GNZdfXw"/>
+  </notation:Diagram>
+</xmi:XMI>

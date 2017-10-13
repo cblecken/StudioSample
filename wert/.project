@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>wert</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.tibco.xpd.validation.validationBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.tibco.xpd.wsdlgen.wsdlGen</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.tibco.xpd.resources.xpdNature</nature>
+		<nature>com.tibco.xpd.wsdltobom.wsdlBomNature</nature>
+		<nature>com.tibco.mdm.bpm.bom.xsdtransform.xsdNature</nature>
+		<nature>com.tibco.mdm.bpm.bom.gen.bomGenNature</nature>
+		<nature>com.tibco.mdm.bpm.wsdlgen.wsdlGenNature</nature>
+	</natures>
+</projectDescription>
